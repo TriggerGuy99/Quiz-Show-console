@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { db } from "../firebaseConfig";
+import { db } from "../src/firebaseConfig";
 import { doc, onSnapshot, updateDoc } from "firebase/firestore";
 import QRCode from "qrcode.react";
 

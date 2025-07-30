@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { db } from "../firebaseConfig";
+import { db } from "../src/firebaseConfig";
 import {
   doc,
   onSnapshot,
