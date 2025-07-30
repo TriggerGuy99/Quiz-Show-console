@@ -1,0 +1,25 @@
+{
+  "name": "interactive-quiz-platform",
+  "version": "1.0.0",
+  "description": "Interactive Real-Time Quiz and Presentation Platform",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "firebase": "^9.22.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "qrcode.react": "^1.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
